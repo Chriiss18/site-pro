@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(./image/randy-jose-M2GnBeHmrNY-unsplash.jpg);
+  background-image: url(./image/aron-visuals-4bVfDlj_yFE-unsplash.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ html {
   top: 0;
   width: 100%;
   height: 90px;
-  background-image: url(./image/randy-jose-M2GnBeHmrNY-unsplash.jpg);
+  background-image: url(./image/aron-visuals-4bVfDlj_yFE-unsplash.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -250,7 +250,7 @@ span.mot {
 .prix_services {
   width: 60%;
   box-shadow: 3px 3px 9px rgb(19, 19, 19);
-  background-color: #dee2e62c;
+  background-color: #103e6b46;
   text-align: start;
   border-radius: 50px;
 }
