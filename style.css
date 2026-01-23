@@ -199,8 +199,8 @@ span.mot {
   justify-content: space-between;
   padding: 30px;
   /* margin-bottom: 70px; */
-  background-color: rgb(136 136 136 / 26%);
-  box-shadow: 0px -2px 5px rgb(255 255 255 / 44%);
+background-color: rgb(20 28 80 / 26%);
+    box-shadow: 0px -2px 16px rgb(28 118 178);
   border-radius: 40px;
   width: 95%;
   margin: 40px auto;
@@ -252,7 +252,7 @@ span.mot {
 
 .prix_services {
   width: 60%;
-  box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
+  box-shadow: 0px -2px 5px rgb(232 224 224 / 44%);
   background-color: #103e6b46;
   text-align: start;
   border-radius: 50px;
@@ -283,7 +283,7 @@ span.mot {
   font-size: 30px;
   text-align: center;
   margin: 0;
-  padding: 0;
+padding: 10px;
 }
 
 .prix_services p {
@@ -344,6 +344,8 @@ span.mot {
 .message {
   width: 50%;
   margin-left: 30px;
+  box-shadow: 2px 2px 6px rgb(255, 255, 255);
+    border-radius: 25px;
 }
 
 .message h5 {
@@ -352,20 +354,12 @@ span.mot {
   margin-bottom: 10px;
 }
 
-.intro-contact {
-  text-align: center;
-  font-size: 15px;
-  opacity: 0.75;
-  margin-bottom: 30px;
-}
-
 form {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 0px 30px;
-  border-radius: 25px;
-  box-shadow: 2px 2px 6px rgb(255, 255, 255);
+
 }
 
 .information_lient label {
@@ -406,12 +400,24 @@ textarea:focus {
 }
 
 #intro-contact {
-  line-height: 1.7;
   background-color: #0000007c;
   border-radius: 20px;
-  margin-top: 30px;
   font-size: 18px;
   box-shadow: 2px 2px 5px rgb(255, 255, 255);
+  width: 90%;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 30PX;
+  padding: 20px;
+}
+#intro-contact a{
+  display: none;
+}
+.intro-contact {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.75;
+  margin-bottom: 30px;
 }
 
 #info_moi {
@@ -420,6 +426,9 @@ textarea:focus {
   list-style: none;
 }
 
+.moi_info{
+  margin-top: 80px;
+}
 textarea {
   margin-top: 30px;
   resize: none;
@@ -459,15 +468,11 @@ form button:hover {
 
 .moi {
   width: 40%;
-  margin: 20px auto;
+  margin: 0px auto;
   border-radius: 25px;
   box-shadow: 2px 2px 6px rgb(255, 255, 255);
 }
 
-/* .moi_info {
-  text-align: center;
-  padding: 25px;
-} */
 
 .moi h5 {
   font-size: 22px;
@@ -581,6 +586,20 @@ form button:hover {
   text-align: center;
 }
 
+/* 
+
+
+
+
+
+@MEDIA POUR TELEPHONE
+
+
+
+
+
+*/
+
 /* MOBILE - jusqu'à 767px */
 @media screen and (max-width: 767px) {
   .nav-menu {
@@ -621,8 +640,9 @@ form button:hover {
     text-align: center;
   }
   #about .info p {
-    font-size: 16px; /* réduire un peu le texte pour mobile */
+    font-size: 14px; /* réduire un peu le texte pour mobile */
     line-height: 1.4;
+    width: 100%;
   }
 
   h2 {
@@ -646,7 +666,7 @@ form button:hover {
     padding: 15px;
   }
   .separer_img_prix ul {
-    font-size: 15px;
+    font-size: 13px;
   }
   .img_service,
   .prix_services {
@@ -696,12 +716,18 @@ form button:hover {
   }
 
   #intro-contact {
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 20PX auto;
     font-size: 14px;
     padding: 5px;
     font-size: 12px;
+    line-height: 1.6;
   }
+  #intro-contact a{
+  display: flex;
+        color: rgb(99 154 237);
+  justify-content: center;
+}
   .separer_mess_moi {
     flex-direction: column;
   }
@@ -724,6 +750,7 @@ form button:hover {
   }
   .moi {
     width: 90%;
+    margin-top: 30px;
   }
   .moi_info li {
     font-size: 18px;
