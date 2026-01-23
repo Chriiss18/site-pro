@@ -123,7 +123,7 @@ a:active {
   background-color: rgba(24, 22, 23, 0.63);
   background-blend-mode: darken;
   border-radius: 30px;
-  box-shadow: -10px -9px 10px rgb(232 224 224 / 44%);
+  box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
   scroll-margin-top: 130px;
 }
 
@@ -186,10 +186,12 @@ span.mot {
   text-align: center;
   justify-content: flex-start;
   border-radius: 30px;
-  box-shadow: -10px -9px 10px rgba(0, 0, 0, 0.44);
-  background-color: rgba(0, 0, 0, 0.308);
+  box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
+  /* background-color: rgba(0, 0, 0, 0.308); */
   color: white;
   scroll-margin-top: 130px;
+  background-color: rgba(24, 22, 23, 0.63);
+  background-blend-mode: darken;
 }
 
 .separer_img_prix {
@@ -197,10 +199,11 @@ span.mot {
   justify-content: space-between;
   padding: 30px;
   /* margin-bottom: 70px; */
-  background-color: rgba(0, 0, 0, 0.336);
+  background-color: rgb(136 136 136 / 26%);
+  box-shadow: 0px -2px 5px rgb(255 255 255 / 44%);
   border-radius: 40px;
   width: 95%;
-  margin: 70px auto;
+  margin: 40px auto;
 }
 
 .img_service {
@@ -249,7 +252,7 @@ span.mot {
 
 .prix_services {
   width: 60%;
-  box-shadow: 3px 3px 9px rgb(19, 19, 19);
+  box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
   background-color: #103e6b46;
   text-align: start;
   border-radius: 50px;
@@ -321,8 +324,9 @@ span.mot {
 =========================== */
 .contact {
   border-radius: 30px;
-  background-color: rgba(0, 0, 0, 0.308);
-  box-shadow: -10px -9px 10px rgb(232 224 224 / 44%);
+  background-color: rgba(24, 22, 23, 0.63);
+  background-blend-mode: darken;
+  box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -455,15 +459,15 @@ form button:hover {
 
 .moi {
   width: 40%;
-  margin: 0 auto;
-}
-
-.moi_info {
-  text-align: center;
-  padding: 25px;
+  margin: 20px auto;
   border-radius: 25px;
   box-shadow: 2px 2px 6px rgb(255, 255, 255);
 }
+
+/* .moi_info {
+  text-align: center;
+  padding: 25px;
+} */
 
 .moi h5 {
   font-size: 22px;
@@ -608,7 +612,7 @@ form button:hover {
     width: 120px;
   }
   #about {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     padding: 20px;
   }
@@ -633,7 +637,7 @@ form button:hover {
   }
   .transition p {
     width: 100%;
-    font-size: 19px;
+    font-size: 17px;
   }
   .separer_img_prix {
     display: flex;
@@ -692,9 +696,11 @@ form button:hover {
   }
 
   #intro-contact {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     font-size: 14px;
+    padding: 5px;
+    font-size: 12px;
   }
   .separer_mess_moi {
     flex-direction: column;
@@ -735,22 +741,14 @@ form button:hover {
   .footer-bottom p {
     font-size: 12px;
   }
-}
 
-/* @media screen and (min-width: 768px) and (max-width: 1024px){
-.hero_flex{
-  width: 100%;
-  margin: 0 auto;
+  .ft {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+  }
 }
-#about{
-  width: 100%;
-  margin: 0 auto;
-}
-#service{
-  width: 90%;
-    margin: 0 auto;
-}
-} */
 
 /* TABLETTE - 768px à 1024px */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
