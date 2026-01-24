@@ -202,11 +202,37 @@
                 Le formulaire est destiné à une première prise de contact.
                 Pour tout envoi de fichiers (images, documents) ou description détaillée, merci de me
                 contacter directement par email.
-                <a href="#moi">clique ici pour envoyer un mail</a>
             </p>
+            <!-- Contact direct -->
+            <div class="moi" id="moi">
+                <h5>Contact direct</h5>
+                <p class="intro-contact"> Vous pouvez m’envoyer un mail ou m’appeler, je réponds généralement sous
+                    24h</p>
+                <div class="moi_info">
+                    <ul>
+                        <li><i class="fa-regular fa-envelope-open"></i> <a
+                                href="mailto:bc-code@hotmail.com">bc-code@hotmail.com</a></li>
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+33662831775">06 62 83 17 75</a></li>
+
+                    </ul>
+                    <div class="reseau">
+                        <div>
+                            <a href="https://www.instagram.com/bc_code_/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i></a>
+                            <p>BryanCode20</p>
+                        </div>
+                        <div>
+                            <a href="https://wa.me/33662831775" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i></a>
+                            <p>0662831775</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="separer_mess_moi">
                 <div class="message">
-                    <form id="contact-form" novalidate>
+                    <form id="contact-form" action="https://formspree.io/f/xeeavbkv" method="post">
                         <div class="services-options">
                             <h5>Choisissez le service :</h5>
                             <label><input type="radio" name="service" value="one_page" required> Site une page</label>
@@ -226,8 +252,7 @@
                                 pattern=".*\S.*" required>
 
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Votre email" maxlength="100"
-                                required>
+                            <input type="email" id="email" name="email" placeholder="Votre email" maxlength="100">
                         </div>
 
 
@@ -237,36 +262,11 @@
 
                         <button type="submit">Envoyer</button>
                         <p class="discret">
-                            Réponse sous 24 à 48h
+                            Réponse sous 24h
                         </p>
                     </form>
                 </div>
-                <!-- Contact direct -->
-                <div class="moi" id="moi">
-                    <h5>Contact direct</h5>
-                    <p class="intro-contact"> Vous pouvez m’envoyer un mail ou m’appeler, je réponds généralement sous
-                        24h</p>
-                    <div class="moi_info">
-                        <ul>
-                            <li><i class="fa-regular fa-envelope-open"></i> <a
-                                    href="mailto:bc-code@hotmail.com">bc-code@hotmail.com</a></li>
-                            <li><i class="fa-solid fa-phone"></i> <a href="tel:+33662831775">06 62 83 17 75</a></li>
 
-                        </ul>
-                        <div class="reseau">
-                            <div>
-                                <a href="https://www.instagram.com/bc_code_/" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i></a>
-                                <p>BryanCode20</p>
-                            </div>
-                            <div>
-                                <a href="https://wa.me/33662831775" target="_blank">
-                                    <i class="fa-brands fa-whatsapp"></i></a>
-                                <p>0662831775</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </section>

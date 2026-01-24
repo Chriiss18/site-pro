@@ -1,5 +1,5 @@
 /* ===========================
-   BODY & HTML chris
+   BODY & HTML chris bon
 =========================== */
 
 * {
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(./image/aron-visuals-4bVfDlj_yFE-unsplash.jpg);
+  background-image: url(./image/nima-motaghian-nejad-HdqBaGh4vUU-unsplash.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ html {
   top: 0;
   width: 100%;
   height: 90px;
-  background-image: url(./image/aron-visuals-4bVfDlj_yFE-unsplash.jpg);
+  background-image: url(./image/nima-motaghian-nejad-HdqBaGh4vUU-unsplash.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ span.mot {
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
-  border-radius: 30px;
+  border-radius: 50px;
   box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
   /* background-color: rgba(0, 0, 0, 0.308); */
   color: white;
@@ -199,8 +199,8 @@ span.mot {
   justify-content: space-between;
   padding: 30px;
   /* margin-bottom: 70px; */
-background-color: rgb(20 28 80 / 26%);
-    box-shadow: 0px -2px 16px rgb(28 118 178);
+  background-color: rgb(20 28 80 / 26%);
+  box-shadow: 0px -2px 10px rgb(28 118 178);
   border-radius: 40px;
   width: 95%;
   margin: 40px auto;
@@ -283,7 +283,7 @@ background-color: rgb(20 28 80 / 26%);
   font-size: 30px;
   text-align: center;
   margin: 0;
-padding: 10px;
+  padding: 10px;
 }
 
 .prix_services p {
@@ -323,7 +323,7 @@ padding: 10px;
    CONTACT SECTION
 =========================== */
 .contact {
-  border-radius: 30px;
+  border-radius: 50px;
   background-color: rgba(24, 22, 23, 0.63);
   background-blend-mode: darken;
   box-shadow: 0px -2px 17px rgb(232 224 224 / 44%);
@@ -345,7 +345,7 @@ padding: 10px;
   width: 50%;
   margin-left: 30px;
   box-shadow: 2px 2px 6px rgb(255, 255, 255);
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .message h5 {
@@ -359,7 +359,6 @@ form {
   flex-direction: column;
   text-align: center;
   padding: 0px 30px;
-
 }
 
 .information_lient label {
@@ -407,10 +406,10 @@ textarea:focus {
   width: 90%;
   text-align: center;
   margin: 0px auto;
-  margin-bottom: 30PX;
+  margin-bottom: 30px;
   padding: 20px;
 }
-#intro-contact a{
+#intro-contact a {
   display: none;
 }
 .intro-contact {
@@ -426,7 +425,7 @@ textarea:focus {
   list-style: none;
 }
 
-.moi_info{
+.moi_info {
   margin-top: 80px;
 }
 textarea {
@@ -472,7 +471,6 @@ form button:hover {
   border-radius: 25px;
   box-shadow: 2px 2px 6px rgb(255, 255, 255);
 }
-
 
 .moi h5 {
   font-size: 22px;
@@ -717,17 +715,17 @@ form button:hover {
 
   #intro-contact {
     width: 90%;
-    margin: 20PX auto;
+    margin: 20px auto;
     font-size: 14px;
     padding: 5px;
     font-size: 12px;
-    line-height: 1.6;
+    line-height: 1.8;
   }
-  #intro-contact a{
-  display: flex;
-        color: rgb(99 154 237);
-  justify-content: center;
-}
+  #intro-contact a {
+    display: flex;
+    color: rgb(99 154 237);
+    justify-content: center;
+  }
   .separer_mess_moi {
     flex-direction: column;
   }
@@ -750,7 +748,8 @@ form button:hover {
   }
   .moi {
     width: 90%;
-    margin-top: 30px;
+    scroll-margin-top: 120px;
+    margin-bottom: 30px;
   }
   .moi_info li {
     font-size: 18px;
