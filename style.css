@@ -173,7 +173,7 @@ nav {
 .about_ {
   background:
     linear-gradient(rgba(100, 98, 98, 0.548), rgba(0, 0, 0, 0.897)),
-    url("/image/purple-4165352_1280.jpg");
+    url("./image/purple-4165352_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -283,42 +283,42 @@ nav {
 .un {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/sameer-jN3qA5vdtpk-unsplash.jpg");
+    url("./image/sameer-jN3qA5vdtpk-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
 .deux {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/pramod-tiwari-HZfipkMMLkc-unsplash.jpg");
+    url("./image/pramod-tiwari-HZfipkMMLkc-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
 .trois {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/fujiphilm-1gPvlIaV7LU-unsplash.jpg");
+    url("./image/fujiphilm-1gPvlIaV7LU-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
 .quatre {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/roberto-nickson-TB_cvdUHUuc-unsplash.jpg");
+    url("./image/roberto-nickson-TB_cvdUHUuc-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
 .cinq {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/faizur-rehman-x0YNF7uY0is-unsplash.jpg");
+    url("./image/faizur-rehman-x0YNF7uY0is-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
 .six {
   background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/image/alexander-shatov-mr4JG4SYOF8-unsplash.jpg");
+    url("./image/alexander-shatov-mr4JG4SYOF8-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -332,7 +332,7 @@ nav {
   border-radius: 90px;
   background:
     linear-gradient(rgba(3, 3, 3, 0.192), rgba(0, 0, 0, 0.774)),
-    url("/image/city-7510927_1280.jpg");
+    url("./image/city-7510927_1280.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -569,7 +569,7 @@ footer {
     justify-content: center;
     background:
       linear-gradient(rgba(0, 0, 0, 0.315), rgba(12, 12, 12, 0)),
-      url("/image/city-7510927_1280.jpg");
+      url("./image/city-7510927_1280.jpg");
     background-position: center;
     margin-top: 30px;
     padding: 20px;
@@ -674,7 +674,7 @@ footer {
     border-radius: 30px;
     background:
       linear-gradient(rgba(3, 3, 3, 0.808), rgba(0, 0, 0, 0.377)),
-      url("/image/city-7510927_1280.jpg");
+      url("./image/city-7510927_1280.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -833,7 +833,7 @@ footer {
     border-radius: 30px;
     background:
       linear-gradient(rgba(3, 3, 3, 0.808), rgba(0, 0, 0, 0.377)),
-      url("/image/city-7510927_1280.jpg");
+      url("./image/city-7510927_1280.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -1163,7 +1163,7 @@ footer {
     border-radius: 30px;
     background:
       linear-gradient(rgba(3, 3, 3, 0.808), rgba(0, 0, 0, 0.377)),
-      url("/image/city-7510927_1280.jpg");
+      url("./image/city-7510927_1280.jpg");
     background-position: center;
     background-size: cover;
   }
