@@ -89,6 +89,7 @@ nav {
   color: white;
   text-align: center;
   margin: 0;
+  font-size: 25px;
 }
 .hero_info h1 {
   color: white;
@@ -105,8 +106,8 @@ nav {
   padding: 15px;
   border-radius: 30px;
   text-decoration: none;
-  color: #333333;
-  background: #fffcfcce;
+  color: #000000;
+  background: #ffffff;
 }
 .hero_info a:hover {
   background-color: #888585;
@@ -130,7 +131,6 @@ nav {
 .section-info h2 {
   font-size: 2rem;
   color: #2c2f5e;
-  text-shadow: 1px 10px 10px white;
   margin-bottom: 60px;
 }
 
@@ -152,11 +152,9 @@ nav {
 
 .card .icon {
   font-size: 1.5rem;
-  margin-right: 15px;
 }
-
 .card p {
-  margin: 0;
+  margin: 10px 0;
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: left;
@@ -219,18 +217,15 @@ nav {
   scroll-margin-top: 30px;
 }
 .service h3 {
-  font-size: 60px;
+  font-size: 2rem;
   color: #2c2f5e;
   text-align: center;
   margin: 30px 0;
-  text-shadow: #ffffff 1px 10px 10px;
 }
 .service h4 {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  /* background-color: #ececec; */
-  background: linear-gradient(135deg, #506bb6, #e7e7e7);
   color: #2c2f5e;
   font-size: 20px;
   padding: 12px 20px;
@@ -238,6 +233,24 @@ nav {
   margin-bottom: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   text-align: center;
+}
+.a {
+  background: linear-gradient(135deg, #262729, #e7e7e7);
+}
+.b {
+  background: linear-gradient(135deg, #506bb6, #e7e7e7);
+}
+.c {
+  background: linear-gradient(135deg, #601fc9, #e7e7e7);
+}
+.d {
+  background: linear-gradient(135deg, #964a17, #e7e7e7);
+}
+.e {
+  background: linear-gradient(135deg, #1792c2, #e7e7e7);
+}
+.f {
+  background: linear-gradient(135deg, #b90b0b, #e7e7e7);
 }
 .service_flex p {
   font-size: 20px;
@@ -257,13 +270,18 @@ nav {
 }
 .box_style {
   background-color: #dfd8d8;
-  border-radius: 90px;
+  border-radius: 60px;
   display: flex;
   flex-direction: column;
   height: 100%;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  box-shadow: 0px 3px 30px black;
+}
+
+.sty {
+  border-radius: 30px;
 }
 .box_style:hover {
   transform: translateY(-8px);
@@ -568,7 +586,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     background:
-      linear-gradient(rgba(0, 0, 0, 0.315), rgba(12, 12, 12, 0)),
+      linear-gradient(rgba(0, 0, 0, 0.315), rgb(12, 12, 12)),
       url("./image/city-7510927_1280.jpg");
     background-position: center;
     margin-top: 30px;
@@ -584,7 +602,7 @@ footer {
     line-height: 1.7;
   }
   .hero p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.7;
   }
   /* preface */
@@ -613,6 +631,7 @@ footer {
   }
   .card .icon {
     font-size: 20px;
+    margin: 0;
   }
   .card p {
     text-align: center;
@@ -696,7 +715,15 @@ footer {
   .message {
     width: 90%;
   }
+  .message input,
+  .message textarea {
+    background-color: #ffffff;
+  }
   .reseau p {
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .info_moi a {
     font-size: 15px;
   }
   /* footer */
@@ -774,11 +801,11 @@ footer {
   }
   /* preface */
 
-  .section-info{
+  .section-info {
     margin-top: 60px;
     border-radius: 30px;
   }
-  .card{
+  .card {
     width: 90%;
   }
 
@@ -911,7 +938,6 @@ footer {
 
 /* entre tab et ordi */
 @media (min-width: 769px) and (max-width: 1024px) {
-
   .section-info,
   .about_,
   .service,
@@ -920,15 +946,15 @@ footer {
     margin-top: 90px;
   }
 
-    .hero {
+  .hero {
     padding: 40px;
   }
   /* preface */
-   .card{
+  .card {
     width: 90%;
   }
   /* about */
-.about_ {
+  .about_ {
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -949,7 +975,7 @@ footer {
     border-radius: 50%;
   }
   /* service */
-    .service {
+  .service {
     margin-top: 60px;
     border-radius: 30px;
     padding: 20px;
@@ -972,7 +998,7 @@ footer {
     text-align: center;
   }
   /* contact */
-   .contact {
+  .contact {
     margin: 60px 0;
     border-radius: 30px;
     background:
@@ -1062,60 +1088,60 @@ footer {
     margin-top: 120px;
   }
 
-    .hero {
+  .hero {
     padding: 60px;
   }
   /* preface */
 
-.section-info {
-  background-color: #b4b4b6;
-  padding: 60px 20px;
-  text-align: center;
-  border-radius: 90px;
-  box-shadow: 1px 1px 40px rgb(0, 0, 0);
-}
+  .section-info {
+    background-color: #b4b4b6;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 90px;
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
+  }
 
-.section-info h2 {
-  font-size: 2rem;
-  color: #2c2f5e;
-  margin-bottom: 60px;
-}
+  .section-info h2 {
+    font-size: 2rem;
+    color: #2c2f5e;
+    margin-bottom: 60px;
+  }
 
-.cards-container {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 30px; 
-}
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
 
-.card {
-  width: 300px;
-  align-items: center;
-  background-color: #fff;
-  padding: 20px 25px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
+  .card {
+    width: 300px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
 
-.card .icon {
-  font-size: 1.5rem;
-  margin-right: 15px;
-}
+  .card .icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
 
-.card p {
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  text-align: left;
-}
+  .card p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+  }
 
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-}
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
   /* about */
-.about_ {
+  .about_ {
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -1135,7 +1161,7 @@ footer {
     border-radius: 50%;
   }
   /* service */
-    .service {
+  .service {
     margin-top: 60px;
     border-radius: 30px;
     padding: 20px;
@@ -1145,7 +1171,7 @@ footer {
   }
   .service h4 {
     font-size: 20px;
-    padding: 10px 14px; 
+    padding: 10px 14px;
     border-radius: 30px;
     margin-bottom: 12px;
     letter-spacing: 0.3px;
@@ -1158,7 +1184,7 @@ footer {
     text-align: center;
   }
   /* contact */
-   .contact {
+  .contact {
     margin: 60px 0;
     border-radius: 30px;
     background:
@@ -1238,4 +1264,3 @@ footer {
     gap: 40px;
   }
 }
-
