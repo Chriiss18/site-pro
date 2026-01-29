@@ -684,6 +684,7 @@ footer {
   }
   .p-box p {
     text-align: center;
+    text-align: start;
   }
 
   /* contact */
