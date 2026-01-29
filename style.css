@@ -558,7 +558,11 @@ color: #4d4fa5;
   nav {
     display: none;
   }
-
+ .box_style:hover {
+    transform: none;
+    box-shadow: none;
+    background-color: #ded7d7;
+  }
   .hero_info a:hover {
     transform: none;
     color: inherit;
@@ -730,10 +734,10 @@ color: #4d4fa5;
   .message {
     width: 90%;
   }
-  .message input,
+  /* .message input,
   .message textarea {
     background-color: #ffffff;
-  }
+  } */
 
   .reseau p {
     font-size: 15px;
@@ -742,10 +746,13 @@ color: #4d4fa5;
   .info_moi a {
     font-size: 15px;
   }
+  .information_client button{
+    width: 50%;
+  }
   /* footer */
 
   .footer {
-    margin: 30px auto;
+    margin: 0px auto;
     padding: 20px;
     border-radius: 30px;
   }
@@ -780,8 +787,11 @@ color: #4d4fa5;
     gap: 10px;
   }
   .footer-bottom {
-    margin: 40px 0;
+    margin: 0px 0;
     text-align: center;
+  }
+  .footer-bottom .fin{
+margin: 0;
   }
   .racc {
     display: flex;
