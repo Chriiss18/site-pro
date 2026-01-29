@@ -50,7 +50,7 @@ HERO
                 <h2>Je transforme votre site… et l'impression qu'il laisse</h2>
                 <h1>Votre site mérite mieux que de passer inaperçu</h1>
                 <p>Je serai ravi de découvrir votre projet. Mon objectif : vous accompagner avec sérieux et
-                    enthousiasme, pour que nous puissions collaborer efficacement et sereinement.</p>
+                    enthousiasme, pour que nous puissions collaborer efficacement et sereinement</p>
                 <a href="#service">En savoir plus</a>
             </div>
         </section>
@@ -62,15 +62,15 @@ HERO
             <div class="cards-container">
                 <div class="card">
                     <span class="icon">🍃</span>
-                    <p>Je privilégie la qualité plutôt que la quantité : chaque projet est unique.</p>
+                    <p>Je privilégie la qualité plutôt que la quantité : chaque projet est unique</p>
                 </div>
                 <div class="card">
                     <span class="icon">🍃</span>
-                    <p>Je travaille avec des clients motivés et sérieux, prêts à collaborer efficacement.</p>
+                    <p>Je travaille avec des clients motivés et sérieux, prêts à collaborer efficacement</p>
                 </div>
                 <div class="card">
                     <span class="icon">🍃</span>
-                    <p>Je m’engage à fournir un site qui fait la différence, pas juste une vitrine.</p>
+                    <p>Je m’engage à fournir un site qui fait la différence, pas juste une vitrine</p>
                 </div>
                 <div class="card">
                     <span class="icon">🍃</span>
@@ -79,7 +79,7 @@ HERO
                 </div>
                 <div class="card">
                     <span class="icon">🍃</span>
-                    <p>Je m'assure que votre site soit clair et facile à utiliser pour vos clients, dès le premier clic.
+                    <p>Je m'assure que votre site soit clair et facile à utiliser pour vos clients, dès le premier clic
                     </p>
                 </div>
             </div>
@@ -156,7 +156,7 @@ HERO
                             <p>Création d'un site web structuré sur plusieurs pages (Accueil, Services, À propos,
                                 Contact, etc.) pour présenter votre activité de manière complète et organisée. Idéal
                                 pour offrir plus d'informations à vos visiteurs, améliorer votre visibilité sur Google
-                                et donner une image sérieuse et professionnelle de votre entreprise.</p>
+                                et donner une image sérieuse et professionnelle de votre entreprise</p>
                         </div>
                     </div>
 
@@ -171,7 +171,7 @@ HERO
                             <p>Suivi régulier de votre site pour garantir son bon fonctionnement, sa sécurité et ses
                                 performances. Cela inclut les mises à jour, les sauvegardes, la correction de bugs et
                                 les petites modifications afin que votre site reste rapide, sécurisé et toujours
-                                opérationnel.</p>
+                                opérationnel</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ HERO
                             <p>Optimisation de votre site pour le rendre plus clair, plus fluide et plus agréable à
                                 utiliser. J’améliore l’organisation du contenu, la navigation et la lisibilité afin que
                                 vos visiteurs trouvent facilement les informations et passent naturellement à l’action
-                                (contact, achat, demande de devis).</p>
+                                (contact, achat, demande de devis)</p>
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@ HERO
                             <p>Adaptation complète de votre site pour qu’il s’affiche parfaitement sur tous les écrans :
                                 ordinateur, tablette et smartphone. Le contenu, les images et les éléments s’ajustent
                                 automatiquement pour garantir une lecture confortable et une navigation fluide, quel que
-                                soit l’appareil utilisé.</p>
+                                soit l’appareil utilisé</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@ HERO
                         <div class="p-box">
                             <p>Intégration d’animations légères et élégantes pour rendre votre site plus dynamique et
                                 engageant. Effets au survol, transitions fluides, apparitions au scroll… tout est pensé
-                                pour attirer l’attention sans alourdir le site ni gêner la navigation.</p>
+                                pour attirer l’attention sans alourdir le site ni gêner la navigation</p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@ HERO
             <div class="contact_">
                 <div class="contact_info">
                     <p>Le formulaire est destiné à une première prise de contact. Pour tout envoi de fichiers (images,
-                        documents) ou description détaillée, merci de me contacter directement par email.</p>
+                        documents) ou description détaillée, merci de me contacter directement par email</p>
                     <div class="info_moi">
                         <a href="mailto:bc-code@hotmail.com">bc-code@hotmail.com</a>
                         <a href="tel:+33662831775">06 62 83 17 75</a>
@@ -245,7 +245,7 @@ HERO
                     </div>
                 </div>
                 <div class="message">
-                    <form action="">
+                    <form method="post" action="https://formspree.io/f/xeeavbkv" id="contactForm"  autocomplete="off" >
                         <!-- client -->
                         <div class="information_client">
                             <div>
@@ -259,7 +259,10 @@ HERO
                             </div>
 
                             <div>
-                                <input type="email" id="email" name="email" placeholder="Votre email" maxlength="100">
+                                <input type="email" id="email" name="email" placeholder="Votre email" maxlength="100"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+                                    title="Veuillez entrer un email valide, exemple : user@mail.com" required>
+                                    <span id="emailError" style="color:rgb(168, 44, 44); font-size:0.9em; display:none;"></span>
                             </div>
                             <!-- message -->
                             <div>
