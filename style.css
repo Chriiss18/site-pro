@@ -25,7 +25,7 @@ nav {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-color: #f5f5f534;
+  background-color: #908da334;
   border-radius: 90px;
   height: auto;
   box-shadow: 1px 1px 20px rgb(245, 244, 244);
@@ -44,19 +44,17 @@ nav {
   text-align: center;
 }
 .navigation a {
-  /* text-decoration: none;
-  color: #474646; */
-  display: inline-block; /* important pour que scale fonctionne */
+  display: inline-block;
   text-decoration: none;
   color: #2c2f5e;
-  transition: all 0.1s ease; /* tu peux garder transition ici */
+  transition: all 0.1s ease;
 }
 .navigation li {
   margin: 60px 0;
 }
 
 .navigation a:hover {
-  color: #131fcc; /* harmonisé avec tes titres */
+  color: #131fcc;
   transform: scale(1.05);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -65,8 +63,6 @@ nav {
 
 .container {
   max-width: 2920px;
-  /* margin-left: calc((100% - 1520px) / 2 + 120px); */
-  /* margin: 0 auto; */
   padding: 30px;
 }
 
@@ -108,20 +104,14 @@ nav {
   text-decoration: none;
   color: #000000;
   background: #ffffff;
-  -webkit-tap-highlight-color: transparent; /* désactive le highlight mobile */
 }
+
 .hero_info a:hover {
-  background-color: #e2ddddc9; /* un peu plus sombre au survol */
-  color: #000000;
-}
-.hero_info a:focus {
-  background: #ffffff;
-  color: #000000;
+  background: #cac5c5;
 }
 /* preface */
 
 .section-info {
-  /* background-color: #f5f0ff; */
   background-color: #b4b4b6;
   padding: 60px 20px;
   text-align: center;
@@ -287,6 +277,7 @@ nav {
 .box_style:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
 }
 .service_flex {
   display: flex;
@@ -345,7 +336,6 @@ nav {
 /*  contact */
 
 .contact {
-  /* background-color: #f5f0ff; */
   padding: 30px 20px;
   margin-top: 240px;
   border-radius: 90px;
@@ -467,17 +457,10 @@ textarea {
 
 /* Au survol */
 
-/* input:hover,
+input:hover,
 textarea:hover {
-  border-color: #bfbfc5;
-} */
-/*
-input:focus,
-textarea:focus {
-  border-color: #6c63ff;
   background-color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.15);
-} */
+}
 
 /* Placeholder */
 input::placeholder,
@@ -488,19 +471,15 @@ textarea::placeholder {
 
 .information_client button {
   border: 2px solid #e0e0e0;
-  background-color: #ffffff;
+  background-color: #d4cece;
   padding: 15px;
   border-radius: 30px;
   cursor: pointer;
   width: 35%;
-  -webkit-tap-highlight-color: transparent;
   outline: none;
 }
 .information_client button:hover {
-  border-color: #0a17d1;
-  transition: all 0.3s ease;
-  transform: translateY(-3px);
-  background-color: #d4cece;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
 
@@ -534,6 +513,10 @@ footer {
   color: #2c2f5e;
   text-align: center;
 }
+.footer-contact a:hover,
+.footer-links a:hover {
+color: #4d4fa5;
+}
 
 .footer-links h5 {
   color: #2c2f5e;
@@ -563,17 +546,6 @@ footer {
   margin-top: 60px;
   color: #2c2f5e;
 }
-/* divers */
-.information_client button:focus,
-.information_client button:active {
-outline: none;
-  box-shadow: none;
-  transform: none;
-  background-color: #ffffff; /* ou la couleur normale */
-  color: #000000;           /* ou couleur texte normale */
-  border-color: #e0e0e0;    /* remettre la bordure normale */
-}
-
 /*  responsive */
 
 /* phone */
@@ -588,50 +560,32 @@ outline: none;
   }
 
   .hero_info a:hover {
-    transform: none !important;
-    color: inherit !important;
-    background: none !important;
-    box-shadow: none !important;
+    transform: none;
+    color: inherit;
+    background: none;
+    box-shadow: none;
   }
 
   .card:hover {
-    transform: none !important;
-    box-shadow: none !important;
+    transform: none;
+    box-shadow: none;
   }
 
   .box_style,
   .box_style:hover,
   .box_style:active,
   .box_style:focus {
-    transform: none !important;
-    box-shadow: none !important;
+    transform: none;
+    box-shadow: none;
   }
 
   .info_moi a:hover {
-    transform: none !important;
+    transform: none;
   }
 
   .fa-instagram:hover,
   .fa-whatsapp:hover {
-    transform: none !important;
-  }
-
-  input:hover,
-  textarea:hover {
-    border-color: inherit !important;
-  }
-  .information_client button:hover {
-    border-color: inherit !important;
-    transform: none !important;
-    background-color: inherit !important;
-    color: inherit !important;
-  }
-  .information_client button,
-  .information_client button:focus,
-  .information_client button:active {
-    outline: none !important;
-    box-shadow: none !important;
-    transform: none !important;
+    transform: none;
   }
 
   /* container */
@@ -851,50 +805,25 @@ outline: none;
     display: none;
   }
 
-  .hero_info a:hover {
-    transform: none !important;
-    color: inherit !important;
-    background: none !important;
-    box-shadow: none !important;
-  }
-
   .card:hover {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-  .hero_info a:hover {
     transform: none;
-    color: inherit;
-    background: none;
     box-shadow: none;
   }
-
   .box_style,
   .box_style:hover,
   .box_style:active,
   .box_style:focus {
-    transform: none !important;
-    box-shadow: none !important;
+    transform: none;
+    box-shadow: none;
   }
 
   .info_moi a:hover {
-    transform: none !important;
+    transform: none;
   }
 
   .fa-instagram:hover,
   .fa-whatsapp:hover {
-    transform: none !important;
-  }
-
-  input:hover,
-  textarea:hover {
-    border-color: inherit !important;
-  }
-  .information_client button:hover {
-    border-color: inherit !important;
-    transform: none !important;
-    background-color: inherit !important;
-    color: inherit !important;
+    transform: none;
   }
   /* container */
   .container {
@@ -1055,49 +984,42 @@ outline: none;
   }
 
   .hero_info a:hover {
-    transform: none !important;
-    color: inherit !important;
-    background: none !important;
-    box-shadow: none !important;
-  }
-
-  .card:hover {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-  .hero_info a:hover {
     transform: none;
     color: inherit;
     background: none;
     box-shadow: none;
   }
 
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
   .box_style,
   .box_style:hover,
   .box_style:active,
   .box_style:focus {
-    transform: none !important;
-    box-shadow: none !important;
+    transform: none;
+    box-shadow: none;
   }
 
   .info_moi a:hover {
-    transform: none !important;
+    transform: none;
   }
 
   .fa-instagram:hover,
   .fa-whatsapp:hover {
-    transform: none !important;
+    transform: none;
   }
 
   input:hover,
   textarea:hover {
-    border-color: inherit !important;
+    border-color: inherit;
   }
   .information_client button:hover {
-    border-color: inherit !important;
-    transform: none !important;
-    background-color: inherit !important;
-    color: inherit !important;
+    border-color: inherit;
+    transform: none;
+    background-color: inherit;
+    color: inherit;
   }
 
   .hero {
